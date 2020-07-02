@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: c_qi_body_mat 1
+  m_Shader: {fileID: 4800000, guid: afe11e07895c0904189a695e3f03fd5a, type: 3}
+  m_ShaderKeywords: BLEEDING_AO _GI_ON _ISFRESNEL_ON _bleedingAO
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: cd1b97dd7673b45608c0891843481d25, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lightmap:
+        m_Texture: {fileID: 2800000, guid: 3568a07cf8a864670accb2d9cd83fa42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5c80596de39fa43338c52e5e875ee28a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOThresh: 3
+    - _BLEEDING_AO: 1
+    - _BleedingAO: 1
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _Contrast: 1
+    - _EmissiveIntensity: 1.56
+    - _Fresnel: 10
+    - _FresnelIntensity: 0.5
+    - _GI: 1
+    - _GIIntensity: 0.6
+    - _Glossiness: 0.005
+    - _Metallic: 1
+    - _Outline: 0.006
+    - _RimAmount: 0.85
+    - _RimThreshold: 0.23
+    - _Saturation: 1.1
+    - _ShadingSoftness: 10
+    - _ShadowRange: -4
+    - _Smoothness: 0.239
+    - _SpecularScale: 0
+    - _isFresnel: 1
+    m_Colors:
+    - _AOColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveColor: {r: 0.8555133, g: 15.20967, b: 60.45638, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _brightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _shadowColor: {r: 0.38039216, g: 0.5995908, b: 0.8117647, a: 1}
